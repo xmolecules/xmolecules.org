@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+	font-family: Fira Sans, sans-serif;
+	font-size: 20px;
+}
+
+img.header {
+	margin: 3em 0;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+dt:before {
+	content: '\f061';
+	font-family: FontAwesome;
+	margin-right: 0.2em;
+}
+
+dt {
+	font-weight: bold;
+	display: inline-block;
+}
+
+dd {
+	display: inline;
+	margin-left: 0;
+}
+
+dd:before {
+	content: '– ';
+}
+
+dd:after {
+  display: block;
+  content: '';
+}
+
+.logos {
+	font-size: 2em;
+}
