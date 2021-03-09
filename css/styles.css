@@ -4,6 +4,10 @@ body {
 	font-size: 20px;
 }
 
+@viewport {
+	width: 640px;
+}
+
 img.header {
 	margin: 3em 0;
 }
@@ -17,8 +21,8 @@ p {
 }
 
 dt:before {
-	content: '\f061';
-	font-family: FontAwesome;
+	content: "\f061";
+	font-family: "Font Awesome 5 Free";
 	margin-right: 0.2em;
 }
 
